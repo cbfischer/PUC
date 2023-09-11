@@ -105,7 +105,7 @@ PROMPT='${PR_SET_CHARSET}${PR_STITLE}${(e)PR_TITLEBAR}\
 ${PR_CYAN}${PR_ULCORNER}${PR_HBAR}${PR_GREY}(\
 ${PR_GREEN}%${PR_PWDLEN}<...<%~%<<\
 ${PR_GREY})$(ruby_prompt_info)${PR_CYAN}${PR_HBAR}${PR_HBAR}${(e)PR_FILLBAR}${PR_HBAR}${PR_GREY}::\
-${PR_CYAN}%(!.%SROOT%s.%n)${PR_GREY}@${PR_BLUE}${PR_HBAR}(${PR_YELLOW}%D{%d/%m/%Y %H:%M:%S}${PR_BLUE})${PR_HBAR}\
+${PR_CYAN}%(!.%SROOT%s.%n)${PR_GREY}@${PR_BLUE}(${PR_YELLOW}%D{%d/%m/%Y %H:%M:%S}${PR_BLUE})\
 
 ${PR_CYAN}${PR_LLCORNER}${PR_BLUE}${PR_HBAR}(\
 ${PR_YELLOW}%m\
