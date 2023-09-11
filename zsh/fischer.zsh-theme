@@ -5,7 +5,7 @@ function theme_precmd {
   PR_FILLBAR=""
   PR_PWDLEN=""
 
-  local promptsize=${#${(%):---(%n@%m:%l)---()--}}
+  local promptsize=${#${(%):---(%n@-------------------)---()--}}
   local rubypromptsize=${#${(%)$(ruby_prompt_info)}}
   local pwdsize=${#${(%):-%~}}
 
